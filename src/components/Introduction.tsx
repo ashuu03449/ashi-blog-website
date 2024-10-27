@@ -142,28 +142,29 @@ export default function Introduction() {
       <hr className='w-[80%] h-[4px] bg-[#ccc] mx-auto mb-5 mt-20' /> {/* Horizontal line for Section 01 */}
 
       {/* Section 06 - Next.js 15 Enhancements */}
-      <section className='w-[90%] mb-5 mt-20 mx-auto flex flex-col md:flex-row gap-48 px-4'>
-        <div className="relative inline-block -mt-10 md:-mt-24 w-[30%]">
-          <div 
-            className="text-[180px] md:text-[320px] font-bold text-transparent text-stroke absolute top-0 left-0 z-10 bg-top bg-clip-text bg-cover"
-            style={{ backgroundImage: 'url(/images/pyyy.jpg)' }}
-          >
-            06
-          </div>
-        </div>
-        <div className='w-full md:w-[50%] mt-10'>
-          <h2 className='text-black text-2xl md:text-3xl font-bold mb-1'>Modern Python</h2>
-          <hr className='w-[150px] h-[4px] bg-[#ccc]' />
-          <p className='mt-5 text-sm md:text-base'>
-          Modern Python offers powerful libraries for data science, web development, and artificial intelligence, making it one of the most versatile languages.
-          </p>
-          <div className='mt-5 mb-5'>
-        <Link href="/blog/pythonblog">
-        <CustomButton  />
-        </Link>
-         </div>
-        </div>
-      </section>
+      <section className='w-[90%] mb-20 mt-20 mx-auto flex flex-col md:flex-row gap-48 px-4'>
+  <div className="relative inline-block -mt-10 md:-mt-24 w-[30%]">
+    <div
+      className="text-[180px] md:text-[320px] font-bold text-transparent text-stroke absolute top-0 left-0 z-0 bg-top bg-clip-text bg-cover"
+      style={{ backgroundImage: 'url(/images/pyyy.jpg)' }}
+    >
+      06
+    </div>
+  </div>
+  <div className='w-full md:w-[50%] mt-10'>
+    <h2 className='text-black text-2xl md:text-3xl font-bold mb-1'>Modern Python</h2>
+    <hr className='w-[150px] h-[4px] bg-[#ccc]' />
+    <p className='mt-5 text-sm md:text-base'>
+      Modern Python offers powerful libraries for data science, web development, and artificial intelligence, making it one of the most versatile languages.
+    </p>
+    <div className='mt-5 mb-5'>
+      <Link href="/blog/pythonblog">
+        <CustomButton />
+      </Link>
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
