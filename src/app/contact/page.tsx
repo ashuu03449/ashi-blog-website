@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -16,6 +16,8 @@ const Contact: React.FC = () => {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
       )
       .then((result) => {
+        console.log(result);
+        
         alert("Thank you for contacting me! I will get back to you soon.");
         window.location.href = 'https://tysm-iota.vercel.app/'; // Confirmation page URL
       }, (error) => {
