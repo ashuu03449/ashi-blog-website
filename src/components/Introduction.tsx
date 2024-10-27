@@ -1,7 +1,6 @@
 import React from 'react';
 import CustomButton from './Button';
 import Link from 'next/link';
-
 export default function Introduction() {
   return (
     <>
@@ -143,7 +142,7 @@ export default function Introduction() {
       <hr className='w-[80%] h-[4px] bg-[#ccc] mx-auto mb-5 mt-20' /> {/* Horizontal line for Section 01 */}
 
       {/* Section 06 - Next.js 15 Enhancements */}
-      <section className='w-[90%] mt-20 mx-auto flex flex-col md:flex-row gap-48 px-4'>
+      <section className='w-[90%] mb-5 mt-20 mx-auto flex flex-col md:flex-row gap-48 px-4'>
         <div className="relative inline-block -mt-10 md:-mt-24 w-[30%]">
           <div 
             className="text-[180px] md:text-[320px] font-bold text-transparent text-stroke absolute top-0 left-0 z-10 bg-top bg-clip-text bg-cover"
