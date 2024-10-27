@@ -21,7 +21,7 @@ const Header = () => {
 
       {/* Desktop Navigation Links */}
       <nav className="hidden md:flex space-x-8">
-        <Link href="/" className="text-black">
+        <Link href="/" className="text-black" >
           Home
         </Link>
         <Link href="/about" className="text-black">

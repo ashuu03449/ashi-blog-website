@@ -52,7 +52,7 @@ export default function About() {
           </div>
           
           <div className='flex flex-col sm:flex-row justify-center md:justify-start space-y-2 sm:space-y-0 sm:space-x-4'>
-            <Link href="https://ashumilestone12.vercel.app/">
+            <Link href="https://ashumilestone12.vercel.app/"  target="_blank">
               <button className='bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 transition duration-300'>
                 My Resume
               </button>

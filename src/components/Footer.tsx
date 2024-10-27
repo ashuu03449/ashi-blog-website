@@ -13,12 +13,12 @@ export default function Footer() {
 </p>
             </div> 
             <div className='flex gap-5'>
-<Link href="https://www.facebook.com/profile.php?id=61554724457744&mibextid=ZbWKwL">
+<Link href="https://www.facebook.com/profile.php?id=61554724457744&mibextid=ZbWKwL"  target="_blank">
 <FaFacebook className='text-3xl text-white' />
 </Link>
-<Link href="https://www.instagram.com/ashu24415/profilecard/?igsh=MTh5NHY2MnVzYWllcA==">
+<Link href="https://www.instagram.com/ashu24415/profilecard/?igsh=MTh5NHY2MnVzYWllcA=="  target="_blank">
 <FaInstagram className='text-3xl text-white' /></Link>
-<Link href="https://github.com/ashuu03449">
+<Link href="https://github.com/ashuu03449"  target="_blank">
 <FaGithub className='text-3xl text-white' />
 </Link>
 

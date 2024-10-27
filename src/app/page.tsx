@@ -31,7 +31,7 @@ export default function Home() {
           <p className="text-white text-sm mb-28 md:mb-0 md:text-lg mt-3 text-center">
           In this blog, we will discuss Next.js, React.js, Tailwind CSS, asynchronous programming, TypeScript (TS), and JavaScript (JS), along with other modern web development concepts. We will explore the latest improvements in these technologies in detail, enabling you to better understand and implement them in your projects. Additionally, in this blog, we will discuss web development-related languages and delve into modern web development practices.
           </p>
-       <Link href="/blog">
+       <Link href="/blog"  target="_blank">
        <button className="flex items-center justify-center mt-3 px-6 py-2 text-lg font-bold text-white bg-purple-600 border border-transparent transition-all duration-200 hover:bg-purple-700 active:scale-95">
       <span>Get Started</span>
       <svg

@@ -25,7 +25,7 @@ export default function Introduction() {
             Next.js 15 added better streaming and image optimization, resulting in quicker page loads. These updates consistently enhance development speed and user experience.
           </p>
           <div className='mt-5'>
-            <Link href="/blog/nextjsblog">
+            <Link href="/blog/nextjsblog"  target="_blank">
               <CustomButton />
             </Link>
           </div>
@@ -58,7 +58,7 @@ export default function Introduction() {
             React simplifies UI building with its component-based approach, ideal for creating dynamic, fast interfaces.
           </p>
           <div className='mt-5'>
-            <Link href="/blog/reactjsblog">
+            <Link href="/blog/reactjsblog"  target="_blank">
               <CustomButton />
             </Link>
           </div>
@@ -75,7 +75,7 @@ export default function Introduction() {
             Angular offers a full-featured framework for robust apps, while Vue.js provides flexibility for lightweight applications.
           </p>
           <div className='mt-5'>
-            <Link href="/blog/angvue">
+            <Link href="/blog/angvue"  target="_blank">
               <CustomButton />
             </Link>
           </div>
@@ -108,7 +108,7 @@ export default function Introduction() {
             Tailwind CSS is a utility-first CSS framework that allows developers to create highly customizable and responsive designs without writing traditional CSS. Its design philosophy revolves around using small, reusable classes to build complex interfaces, making the development process faster and more efficient.
           </p>
           <div className='mt-5'>
-            <Link href="/blog/tailwindcss">
+            <Link href="/blog/tailwindcss"  target="_blank">
               <CustomButton />
             </Link>
           </div>
@@ -125,7 +125,7 @@ export default function Introduction() {
             TypeScript adds static typing to JavaScript, making code more readable and reducing runtime errors.
           </p>
           <div className='mt-12'>
-            <Link href="/blog/tsblog">
+            <Link href="/blog/tsblog"  target="_blank">
               <CustomButton />
             </Link>
           </div>
@@ -158,7 +158,7 @@ export default function Introduction() {
       Modern Python offers powerful libraries for data science, web development, and artificial intelligence, making it one of the most versatile languages.
     </p>
     <div className='mt-5 mb-5'>
-      <Link href="/blog/pythonblog">
+      <Link href="/blog/pythonblog"  target="_blank">
         <CustomButton />
       </Link>
     </div>
