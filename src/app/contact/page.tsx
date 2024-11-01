@@ -9,8 +9,14 @@ const Contact: React.FC = () => {
     const form = useRef<HTMLFormElement>(null); // Form ka reference
     const router = useRouter(); // Next.js ka router
 
+
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault(); // Form ko submit hone se roken
+          // Environment variables ko console mein dekhne ke liye
+    console.log("Service ID:", process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+    console.log("Template ID:", process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+    console.log("Public Key:", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+
 
         if (form.current) {
             emailjs.sendForm(
